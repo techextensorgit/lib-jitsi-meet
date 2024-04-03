@@ -26,5 +26,5 @@ function _mergeNamespaceAndModule(module) {
             ? Object.assign({}, window.JitsiMeetJS, module)
             : module);
 }
-
+ 
 module.exports = _mergeNamespaceAndModule(ljm);
